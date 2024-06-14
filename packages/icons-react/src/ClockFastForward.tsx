@@ -6,10 +6,11 @@ const ClockFastForward = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m22.7 11.5-1.9995 2-2.0005-2M12 7v5l3 2"
     />

@@ -6,10 +6,11 @@ const CurrencyBitcoin = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M7.3 4.8H5.5h1.8Zm0 14.4H5.5h1.8Z"
     />

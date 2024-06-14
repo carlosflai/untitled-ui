@@ -6,10 +6,11 @@ const Expand06 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M16 3h5v5M3 8V3h5m0 18H3v-5m18 0v5h-5"
     />

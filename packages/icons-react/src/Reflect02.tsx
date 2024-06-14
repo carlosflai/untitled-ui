@@ -6,10 +6,11 @@ const Reflect02 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m18.75 14.7-3.6-3.6 3.6-3.6m-13.5 7.2 3.6-3.6-3.6-3.6"
     />

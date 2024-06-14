@@ -6,10 +6,11 @@ const Map01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M3 5.6V20l6.3-3.6 6.3 3.6 5.4-3.6V2l-5.4 3.6L9.3 2 3 5.6Z"
     />

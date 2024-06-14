@@ -6,10 +6,11 @@ const ClockRefresh = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m3.4932 18.0659.732-2.732 2.732.732m10.085-8.1319 2.7321.732.732-2.732M11.9997 7.5V12l2.5 1.5"
     />

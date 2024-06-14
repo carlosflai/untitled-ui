@@ -6,9 +6,14 @@ const ArrowCircleBrokenUp = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m15.6 10.9999-3.6-3.6L8.4 11" />
+    <path
+      fill="transparent"
+      fillOpacity={0.01}
+      d="m15.6 10.9999-3.6-3.6L8.4 11"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

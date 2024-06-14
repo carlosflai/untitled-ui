@@ -6,10 +6,11 @@ const UserX01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M10 12c2.4853 0 4.5-2.0147 4.5-4.5S12.4853 3 10 3 5.5 5.0147 5.5 7.5 7.5147 12 10 12Z"
     />

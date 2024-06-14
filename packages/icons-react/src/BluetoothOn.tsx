@@ -6,10 +6,11 @@ const BluetoothOn = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m6 7.5 10.8 9-5.4 4.5V3l5.4 4.5-10.8 9"
     />

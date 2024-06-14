@@ -6,10 +6,11 @@ const Building08 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M11.576 2.265c.1538-.0962.2307-.1442.3132-.163a.5001.5001 0 0 1 .2216 0c.0825.0188.1594.0668.3132.163L20 7H4l7.576-4.735Z"
     />

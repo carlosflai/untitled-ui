@@ -6,9 +6,10 @@ const SpacingHeight01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m9 8 3-2 3 2m-6 8 3 2 3-2" />
+    <path fill="transparent" fillOpacity={0.01} d="m9 8 3-2 3 2m-6 8 3 2 3-2" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

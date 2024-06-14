@@ -6,10 +6,11 @@ const Colors = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 12.8c2.9823 0 5.4-2.4177 5.4-5.4C17.4 4.4177 14.9823 2 12 2 9.0177 2 6.6 4.4177 6.6 7.4c0 2.9823 2.4177 5.4 5.4 5.4Z"
     />

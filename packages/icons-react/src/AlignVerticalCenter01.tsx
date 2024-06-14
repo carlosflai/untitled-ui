@@ -6,10 +6,11 @@ const AlignVerticalCenter01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m14.7 5.25-3.6 3.6-3.6-3.6m7.2 13.5-3.6-3.6-3.6 3.6"
     />

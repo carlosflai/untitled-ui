@@ -6,10 +6,11 @@ const CurrencyRupee = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M6 3h12H6Zm0 5h12H6Zm0 5 8.5 8L6 13Zm0 0h3-3Zm3 0c6.667 0 6.667-10 0-10v10Z"
     />

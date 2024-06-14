@@ -6,10 +6,11 @@ const Recording02 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M3 10v4-4Zm4.5 1v2-2ZM12 6v12V6Zm4.5-3v18V3Zm4.5 7v4-4Z"
     />

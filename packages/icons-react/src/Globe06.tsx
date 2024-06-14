@@ -6,10 +6,11 @@ const Globe06 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m16.282 19.9458-2.8501-7.5139 7.5139 2.8501-3.3319 1.3319-1.3319 3.3319Z"
     />

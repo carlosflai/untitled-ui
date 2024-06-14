@@ -6,10 +6,11 @@ const Pilcrow02 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M17.5 4v16H14v-8H9c-2.2091 0-4-1.7909-4-4 0-2.2091 1.7909-4 4-4h8.5Z"
     />

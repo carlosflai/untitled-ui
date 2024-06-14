@@ -6,10 +6,11 @@ const SearchLg = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M11.5 20c4.6944 0 8.5-3.8056 8.5-8.5S16.1944 3 11.5 3 3 6.8056 3 11.5 6.8056 20 11.5 20Z"
     />

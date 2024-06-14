@@ -6,10 +6,11 @@ const RefreshCw05 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m3.4932 18.0661.732-2.7321 2.732.7321M17.0424 7.934l2.732.732.7321-2.732"
     />

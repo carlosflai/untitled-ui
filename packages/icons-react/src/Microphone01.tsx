@@ -6,10 +6,11 @@ const Microphone01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M8.6 5.7C8.6 4.2088 9.8088 3 11.3 3S14 4.2088 14 5.7V12c0 1.4912-1.2088 2.7-2.7 2.7S8.6 13.4912 8.6 12V5.7Z"
     />

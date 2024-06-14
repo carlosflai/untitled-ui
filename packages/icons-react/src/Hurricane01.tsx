@@ -6,10 +6,11 @@ const Hurricane01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M21 6c0 1.6569-4.0294 3-9 3S3 7.6569 3 6s4.0294-3 9-3 9 1.3431 9 3Z"
     />

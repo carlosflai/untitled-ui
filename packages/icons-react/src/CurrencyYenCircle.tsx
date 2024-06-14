@@ -6,15 +6,16 @@ const CurrencyYenCircle = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Zm0-3.6V11v5.4Z"
     />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M15.6 6.5 12 11 8.4 6.5m7.2 4.5H8.4h7.2Zm-.45 2.7h-6.3 6.3Z"
     />

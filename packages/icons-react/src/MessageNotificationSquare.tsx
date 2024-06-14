@@ -6,10 +6,11 @@ const MessageNotificationSquare = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M20.1213 3.8787c1.1716 1.1716 1.1716 3.071 0 4.2426-1.1716 1.1716-3.071 1.1716-4.2426 0-1.1716-1.1715-1.1716-3.071 0-4.2426 1.1716-1.1716 3.071-1.1716 4.2426 0Z"
     />

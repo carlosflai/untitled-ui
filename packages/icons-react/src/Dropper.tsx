@@ -6,10 +6,11 @@ const Dropper = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m5 14.9998 12-12c1.1046-1.1046 2.8954-1.1045 4 0 1.1046 1.1046 1.1046 2.8954 0 4l-12 12c-2.5 2.5-7 3-7 3s.5-4.5 3-7Z"
     />

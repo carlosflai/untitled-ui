@@ -6,9 +6,10 @@ const Snowflake01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M10.984 12v-.0001V12Z" />
+    <path fill="transparent" fillOpacity={0.01} d="M10.984 12v-.0001V12Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

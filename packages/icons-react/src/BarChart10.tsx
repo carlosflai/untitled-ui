@@ -6,10 +6,11 @@ const BarChart10 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M15 4.6c0-.56 0-.84-.109-1.054a1 1 0 0 0-.437-.437C14.2401 3 13.9601 3 13.4 3h-2.8c-.5601 0-.84 0-1.054.109a1.0001 1.0001 0 0 0-.437.437C9 3.76 9 4.04 9 4.6V21h6V4.6Z"
     />

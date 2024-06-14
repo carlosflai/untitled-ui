@@ -6,9 +6,10 @@ const Minimize01 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M4 14h6v6m10-10h-6V4" />
+    <path fill="transparent" fillOpacity={0.01} d="M4 14h6v6m10-10h-6V4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
